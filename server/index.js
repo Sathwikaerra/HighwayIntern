@@ -19,8 +19,8 @@ const startServer = async () => {
     await connectDB(); 
     console.log("✅ Database connected successfully");
     
-    app.listen(3000, () => {
-      console.log("🚀 Server running on http://localhost:3000");
+    app.listen(5000, () => {
+      console.log("🚀 Server running on http://localhost:5000");
     });
   } catch (error) {
     console.error("❌ Database connection failed:", error.message);
