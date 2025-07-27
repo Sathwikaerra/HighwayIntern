@@ -62,7 +62,7 @@ coverage/
 /my-project/dist/
 /my-project/.next/
 .my-project/
-my-project
+
 # Vite cache
 .vite/
 
