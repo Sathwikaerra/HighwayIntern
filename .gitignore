@@ -1,0 +1,74 @@
+# =========================
+# GENERAL
+# =========================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+.temp/
+*.swp
+
+# OS / Editor stuff
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# BACKEND (Express/Node)
+# =========================
+/server/node_modules/
+/server/.env
+/server/dist/
+/server/build/
+/server/*.log
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.mysql
+*.psql
+
+# Coverage
+coverage/
+*.lcov
+
+# =========================
+# FRONTEND (React/Vite/Next.js)
+# =========================
+/my-project/node_modules/
+/my-project/.env
+/my-project/.env.local
+/my-project/.env.*.local
+/my-project/build/
+/my-project/dist/
+/my-project/.next/
+.my-project/
+my-project
+# Vite cache
+.vite/
+
+# Next.js build output
+.next/
+out/
+
+# React Testing Library
+coverage/
